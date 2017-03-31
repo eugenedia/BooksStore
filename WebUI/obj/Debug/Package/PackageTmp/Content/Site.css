@@ -1,0 +1,47 @@
+﻿.holder {   
+  width: auto;
+  display: inline-block;
+  color: darkblue;    
+}
+
+
+.holder img {
+  width: 5%; /* Will shrink image to 30% of its original width */
+  height: auto;    
+}
+#categories {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.navbar-default {
+    background-color: #F4FAE1;
+    border-color: #E7E7E7;
+}
+.navbar-nav {
+   
+}
+.navbar-nav > li {
+text-transform: uppercase;
+
+
+}
+.navbar-default .navbar-nav > li > a{
+color: darkblue;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #DCF78B;
+}
+
+body, .row{
+background-color: #FFFFFF;
+}
+.navbar-brand {
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.comboBox {
+    padding-left: 0;
+}

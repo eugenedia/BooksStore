@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="eugenedia1-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\code\\Asp\.mvc\\Asp\ Mvc\ Pro\\BookStore\\WebUI\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\code\\Asp\.mvc\\Asp\ Mvc\ Pro\\BookStore\\WebUI\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="EFDbContext-Web.config Connection String" description="" value="&quot;Data Source=SQL5028.myASP.NET;Initial Catalog=DB_A1A80E_eugenedia1;User Id=DB_A1A80E_eugenedia1_admin;Password=SmartBird2015;&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\code\\Asp\.mvc\\Asp\ Mvc\ Pro\\BookStore\\WebUI\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EFDbContext']/@connectionString" />
+  </parameter>
+</parameters>
