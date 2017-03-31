@@ -67,8 +67,9 @@ namespace BooksStore.WebUI.Controllers
                 {
                     string pic = System.IO.Path.GetFileName(filefsys.FileName);
                     string path = System.IO.Path.Combine(Server.MapPath("~/Content/images"),pic);
+                    string url = System.IO.Path.Combine("/Content/images/", pic);
                     filefsys.SaveAs(path);
-                    product.ImageUrl = path;
+                    product.ImageUrl = url;
                 }
                 repository.SaveProduct(product);
                 TempData["message"] = string.Format("{0} has been saved", product.Name);
