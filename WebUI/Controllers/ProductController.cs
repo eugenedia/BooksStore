@@ -54,6 +54,8 @@ namespace BooksStore.WebUI.Controllers
             //.ToList()
             //.Select(x => new Domain.Entities.Type { Name = x.Name, NameEng = x.NameEng });
             //var Products = context.Products.Include(i => i.Type).Include(i => i.Category).ToList();
+            if (type == "All")
+                type = null;
 
             ProductsListViewModel model = new ProductsListViewModel
             {

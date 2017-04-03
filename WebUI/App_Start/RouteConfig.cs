@@ -77,8 +77,8 @@ namespace WebUI
             
 
             routes.MapRoute(null,
-            "{category}/Page{page}",
-            new { controller = "Product", action = "List" },
+            "All/{category}/Page{page}",
+            new { controller = "Product", action = "List", type = (string)null },
             new { page = @"\d+" }
             );
             
