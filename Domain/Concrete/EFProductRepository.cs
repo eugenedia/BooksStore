@@ -34,11 +34,14 @@ namespace BooksStore.Domain.Concrete
                     dbEntry.Description = product.Description;
                     dbEntry.Price = product.Price;
                     //dbEntry.Category = product.Category;
-                    dbEntry.ImageData = product.ImageData;
-                    dbEntry.ImageMimeType = product.ImageMimeType;
+                    if(product.ImageData!=null)
+                        dbEntry.ImageData = product.ImageData;
+                    if (product.ImageMimeType != null)
+                        dbEntry.ImageMimeType = product.ImageMimeType;
                     dbEntry.TypeId = product.TypeId;
                     dbEntry.CategoryId = product.CategoryId;
-                    dbEntry.ImageUrl = product.ImageUrl;
+                    if(product.ImageUrl!=null)
+                        dbEntry.ImageUrl = product.ImageUrl;
                 }
             }
             context.SaveChanges();

@@ -121,6 +121,31 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\ErrorStyles.css" />
+    <Content Include="Content\Images\ASP.NET MVC 4 Essential Training.jpg" />
+    <Content Include="Content\Images\ASP.NET MVC 5 - Building a Website with Visual Studio 2015 and C Sharp.jpg" />
+    <Content Include="Content\Images\ASP.NET MVC 5 with Bootstrap and Knockout.jpg" />
+    <Content Include="Content\Images\Book1.jpg" />
+    <Content Include="Content\Images\C Sh 6 for Programmers %286th Edition%29 %28Deitel Developer Series%29.jpg" />
+    <Content Include="Content\Images\C Sh 6.0 and the .NET 4.6 Framework.jpg" />
+    <Content Include="Content\Images\C Sh 6.0 in a Nutshell The Definitive Reference.jpg" />
+    <Content Include="Content\Images\C Sh in Depth, 3rd Edition.jpg" />
+    <Content Include="Content\Images\C# 6 for Programmers %286th Edition%29 %28Deitel Developer Series%29.jpg" />
+    <Content Include="Content\Images\C# 6.0 and the .NET 4.6 Framework.jpg" />
+    <Content Include="Content\Images\C# 6.0 in a Nutshell The Definitive Reference.jpg" />
+    <Content Include="Content\Images\C# in Depth, 3rd Edition.jpg" />
+    <Content Include="Content\Images\cert-70-480.png" />
+    <Content Include="Content\Images\cert-70-483.png" />
+    <Content Include="Content\Images\cert-70-486.png" />
+    <Content Include="Content\Images\cert-70-487.png" />
+    <Content Include="Content\Images\Effective C Sh %28Covers CSh 6.0%29.jpg" />
+    <Content Include="Content\Images\Effective C# %28Covers C# 6.0%29.jpg" />
+    <Content Include="Content\Images\Learning ASP.Net MVC - Training DVD.jpg" />
+    <Content Include="Content\Images\Learning CSh Best Practices - Training DVD.jpg" />
+    <Content Include="Content\Images\Learning JavaScript Programming - Training DVD.jpg" />
+    <Content Include="Content\Images\Pro ASP.NET MVC 5.jpg" />
+    <Content Include="Content\Images\Pro AspNet Core MVC.jpg" />
+    <Content Include="Content\Images\Professional ASP.NET MVC 5.jpg" />
+    <Content Include="Content\Images\Programming in Microsoft CSh - Exam 70-483 - Training DVD.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -185,9 +210,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Content\Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Domain\BooksStore.Domain.csproj">
       <Project>{976fec1c-e59e-4762-b19e-0c67f9564f4b}</Project>
